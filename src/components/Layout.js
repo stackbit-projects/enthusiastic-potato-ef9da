@@ -100,7 +100,7 @@ export default class Body extends React.Component {
                         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
                     )}
                     {font === 'inter-var' && (
-                        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
+                        <link href="a+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
                     )}
                     {favIcon && <link rel="icon" href={withPrefix(favIcon)} />}
                     <body className={classNames(`palette-${palette}`, `font-${font}`)} />
